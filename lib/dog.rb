@@ -73,8 +73,8 @@ lassie.bark
 
 # In the same manner, instance methods, the methods that belong to particular instances of particular classes, are not globally evocable like procedural methods. They cannot be called without an instance.class Dog
 class Dog
-  def bark
-    puts "Woof"
+  def sit
+    puts "The Dog is sitting"
   end 
 end
 fido.bark 
